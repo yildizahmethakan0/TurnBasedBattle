@@ -29,7 +29,7 @@
         unitToAttack.TakeDamage(randDamage);
         Console.WriteLine(unitName + " attacks " + unitToAttack.unitName + " and deals " + randDamage + " damage!");
     }
-
+     
     public void TakeDamage(int damage)
     {
         currentHp -= damage;
