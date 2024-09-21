@@ -27,3 +27,4 @@ while (!player.IsDead && !enemy.IsDead)
     else
         enemy.Heal();
 }
+///Ahmet Hakan Yıldız
