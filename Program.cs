@@ -2,6 +2,7 @@
 Unit enemy = new Unit(75, 10, 7, "Enemy Mage");
 Random random = new Random();
 
+
 while (!player.IsDead && !enemy.IsDead)
 {
     Console.WriteLine(player.UnitName + " HP = " + player.Hp + ". " + enemy.UnitName + " HP = " + enemy.Hp);
